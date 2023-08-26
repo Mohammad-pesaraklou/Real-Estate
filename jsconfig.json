@@ -3,14 +3,14 @@
     "baseUrl": ".",
     "paths": {
       "@/public/*": ["public/*"],
-      "@/components/*": ["src/components/*"],
-      "@/layout/*": ["src/components/layout/*"],
-      "@/modules/*": ["src/components/modules/*"],
-      "@/template/*": ["src/components/template/*"],
-      "@/models/*": ["src/models/*"],
+      "@/app/*": ["src/app/*"],
       "@/utils/*": ["src/utils/*"],
-      "@/api/*": ["src/app/api/*"],
-      "@/providers/*": ["src/providers/*"]
+      "@/models/*": ["src/models/*"],
+      "@/layout/*": ["src/components/layout/*"],
+      "@/module/*": ["src/components/module/*"],
+      "@/template/*": ["src/components/template/*"],
+      "@/providers/*": ["src/providers/*"],
+      "@/api/*": ["src/app/api/*"]
     }
   }
 }

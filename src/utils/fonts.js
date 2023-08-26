@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-const Yekan = localFont({
+export const Yekan = localFont({
   src: [
     {
       path: "../../public/fonts/YekanBakh-Bold.woff2",
@@ -28,5 +28,3 @@ const Yekan = localFont({
     },
   ],
 });
-
-export default Yekan;
